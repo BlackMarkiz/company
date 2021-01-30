@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+	nav {
+		position: static;
+	}
+	.menu {
+		display: block;
+	}
+	.menuli {
+		margin: 5%;
+	}
+	.flex {
+		display: block;
+	}
+	.flex img {
+		width: 100%;
+	}
+	.flex p {
+		width: 100%;
+		text-align: justify;
+	}
+	.teamflex {
+		display: block;
+	}
+	.teamflex div {
+		width: 100%;
+		padding: 3%;
+		box-sizing: border-box;
+		margin: 0;
+	}
+	#pro {
+		background-color: purple;
+	}
+	.tarifflex {
+		display: block;
+	}
+	.tariful {
+        width: 100%;
+	}
+}

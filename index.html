@@ -3,16 +3,18 @@
 <head>
 	<title>Landing 1</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 </head>
 <body>
 	<nav>
 		<ul class="menu">
-			<li class="menuli"><a href="#">О нас</a></li>
-			<li class="menuli"><a href="#">Проекты</a></li>
-			<li class="menuli"><a href="#">Команда</a></li>
-			<li class="menuli"><a href="#">Цены</a></li>
-			<li class="menuli"><a href="#">Контакты</a></li>
+			<li class="menuli"><a href="#aboutcompany">О нас</a></li>
+			<li class="menuli"><a href="#team">Про компанию</a></li>
+			<li class="menuli"><a href="#buy">Команда</a></li>
+			<li class="menuli"><a href="#buy1">Цены</a></li>
+			<li class="menuli"><a href="#contact">Контакты</a></li>
 		</ul>
 	</nav>
 	<header>
@@ -20,7 +22,7 @@
 		<p>Здесь Будет Что-то Интересное</p>
 		<a class="apple" href="#">Подробнее</a>
 	</header>
-	<div class="maincontainer">
+	<div class="maincontainer" id="aboutcompany">
 		<h1 class="company">О компании</h1>
 		<div class="flex">
 			<div>
@@ -46,7 +48,7 @@
 			<img src="logo.jpg">
 		</div>
 	</div>
-	<div class="team">
+	<div class="team" id="team">
 		<h2>Команда</h2>
 		<p class="devis">Не стоит проигривать под изменчивый мир</p>
 		<div class="teamflex">
@@ -81,10 +83,10 @@
 		</div>
 	</div>
 
-	<div class="tarif">
+	<div class="tarif" id="buy">
 		<h2>Тарифы</h2>
 		<p class="devis">Платите нам сколько,сколько хотите.Главное платите :3 </p>
-		<div class="tarifflex" >
+		<div class="tarifflex" id="buy1" >
 			<ul class="tariful">
 			<li id="base">Базовой</li>
 			<li>10 лайков</li>
@@ -130,7 +132,7 @@
 			<p class="subscribe">Пожалуста подпишись! :)</p>
 		</div>
 	</div>
-	<div class="contact">
+	<div class="contact" id="contact">
 		<h2>Контакты</h2>
 		<p class="devis">Не будьте скромными, пишите нам </p>
 		<p class="image1">Москва, звонят колокола</p>
